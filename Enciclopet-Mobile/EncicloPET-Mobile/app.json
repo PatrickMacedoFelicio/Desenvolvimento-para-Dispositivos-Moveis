@@ -1,34 +1,19 @@
 {
   "expo": {
-    "name": "EncicloPET-Mobile",
-    "slug": "EncicloPET-Mobile",
+    "name": "EncicloPET Mobile",
+    "slug": "enciclopet-mobile",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+      "package": "com.patrick.enciclopet",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "package": "com.patrick_maiscedo.EncicloPETMobile"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "backgroundColor": "#FFFFFF"
+      }
     },
     "extra": {
       "eas": {
-        "projectId": "7efce18c-3727-44c4-99f5-83cf2e504deb"
+        "projectId": "64d46bad-675b-4c08-b44f-78a45f88954a"
       }
     }
   }
